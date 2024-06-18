@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*,
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background: rgb(0,19,36);
+    background: linear-gradient(333deg, rgba(0,19,36,1) 0%, rgba(14,227,217,1) 13%, rgba(0,74,255,1) 100%);
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.low-tiers-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.low-tiers-link:hover {
+    background-color: #777;
+}
+
+.selected {
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+.title {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.gamemode-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gamemode-option {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.gamemode-option:hover {
+    transform: scale(1.1);
+}
+.gamemode-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .gamemode-option {
+            cursor: pointer;
+            width: 100px;
+            height: 100px;
+            margin: 0 10px;
+            overflow: hidden;
+            border-radius: 50%;
+            background-color: #555;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gamemode-option img {
+            width: 60%;
+            height: auto;
+        }
+.gamemode-option img {
+    width: 64px; /* Reduced image size */
+    height: 64px; /* Reduced image size */
+    object-fit: contain;
+}
+
+.gamemode-line {
+    height: 20px;
+    width: 100%;
+    background-color: #4d4d4d;
+    margin: 20px 0;
+}
+
+.player-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.player-list ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3e71f4; /* Blue background */
+    transition: background-color 0.3s ease;
+    color: #fff; /* White text color */
+}
+
+.player-list ul li:hover {
+    background-color: #5a8ff4; /* Lighter blue hover effect */
+}
+
+.list-names {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.list-name {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px #000000;
+    margin-top: 10px;
+}
+
+.player-lists {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.player-list {
+    width: 18%;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 950px) {
+    .list-names {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .list-name {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .player-lists {
+        flex-wrap: wrap;
+    }
+    
+    .player-list {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center align */
+    align-items: center; /* Vertically center align */
+}
+
+.title {
+    margin: 20px auto; /* Center horizontally and add bottom margin */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center; /* Center text */
+}
+.list-names {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tier-box {
+    width: calc(20% - 20px); /* Adjusted width to fit all boxes in one row */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #555; /* Darker cool gray background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tier-box:not(:last-child) {
+    margin-right: 20px; /* Add right margin to all tier boxes except the last one */
+}
+
+.list-name {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    color: white; /* White text color for better visibility */
+}

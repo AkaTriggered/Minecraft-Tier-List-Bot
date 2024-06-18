@@ -1,0 +1,26 @@
+{
+  "token": "MTIyMjgyMjkwMjIwNjk1NTU0MA.GB8uhF.Bf7L0zJJHEfPRB3IHeZo0l3rmnSPYKnqIWukEk",
+  "prefix": "!",
+  "port": "3000",  
+  "prefix": ".",
+  "clientId": "1222822902206955540",
+  "ownerId": "1063691309782675566",
+  "guildId": "1083764787395166230",
+  "testerRoleId": "1210300053235966002",
+  "status": "TotemMC Tier Tester!",
+  "blacklistedChannelId": "1223574353644359741",
+  "queueChannelId": "1223633438687629373",
+  "website": "https://akaservicesslash.thedeveloperhub.repl.co",
+  "banner": "https://media.discordapp.net/attachments/960440723369517106/996423763522506782/rainbow-border.gif",
+  "footer": "Developed By AkaTriggered 🔥",
+  "color": {
+    "green": "0x57F287",
+    "yellow": "0xFEE75C",
+    "red": "0xED4245",
+    "default": "0x5865F2"
+  },
+  "command": {
+    "notfound_message": true,
+    "error_message": true
+  }
+}
